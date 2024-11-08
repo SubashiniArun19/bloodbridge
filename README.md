@@ -3,14 +3,7 @@
 ## DB Setup
 CREATE DATABASE bloodbridge;
 
-USE bloodbridge;
-
-
-CREATE USER 'DBAdmin'@'localhost' IDENTIFIED BY 'bloodbridge';
-
-GRANT SELECT, INSERT, UPDATE, DELETE ON bloodbridge.* TO 'DBAdmin'@'localhost';
-
-FLUSH PRIVILEGES;
+USE bloodbridge
 
 
 CREATE TABLE register (
